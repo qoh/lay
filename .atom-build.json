@@ -1,0 +1,10 @@
+{
+  "cmd": "love",
+  "name": "run",
+  "args": ["{PROJECT_PATH}"],
+  "sh": true,
+  "errorMatch": [
+    "^regexp1$",
+    "^regexp2$"
+  ]
+}
